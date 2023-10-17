@@ -425,91 +425,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.fixed{
-  position: fixed;
-}
-
-.top-0{
-  top: 0px;
-}
-
-.z-10{
-  z-index: 10;
-}
-
-.mx-\[0\.8rem\]{
-  margin-left: 0.8rem;
-  margin-right: 0.8rem;
-}
-
-.flex{
-  display: flex;
-}
-
-.h-\[5\.4rem\]{
-  height: 5.4rem;
-}
-
 .h-6{
   height: 1.5rem;
 }
 
-.w-full{
-  width: 100%;
+.cursor-pointer{
+  cursor: pointer;
 }
 
-.items-center{
-  align-items: center;
-}
-
-.justify-between{
-  justify-content: space-between;
-}
-
-.rounded-\[0\.8rem\]{
-  border-radius: 0.8rem;
-}
-
-.bg-transparent{
-  background-color: transparent;
-}
-
-.p-\[3\.2rem\]{
-  padding: 3.2rem;
-}
-
-.px-\[0\.8rem\]{
-  padding-left: 0.8rem;
-  padding-right: 0.8rem;
-}
-
-.py-\[0\.4rem\]{
-  padding-top: 0.4rem;
-  padding-bottom: 0.4rem;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.font-semibold{
-  font-weight: 600;
-}
-
-.text-\[\#181b21\]{
-  --tw-text-opacity: 1;
-  color: rgb(24 27 33 / var(--tw-text-opacity));
-}
-
-.transition-all{
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.duration-300{
-  transition-duration: 300ms;
+.underline{
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 html {
@@ -596,14 +522,6 @@ html {
   position: absolute;
   top: 85%;
   left: 50%;
-  display: flex;
-  flex-direction: column;
-}
-
-@media (min-width: 1024px){
-  .car_buttons{
-    flex-direction: row;
-  }
 }
 
 .btn{
@@ -627,16 +545,11 @@ html {
 }
 
 .inventory{
+  margin-left: 2rem;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.6;
   --tw-text-opacity: 1;
   color: rgb(57 60 65 / var(--tw-text-opacity));
-}
-
-@media (min-width: 1024px){
-  .inventory{
-    margin-left: 2rem;
-  }
 }
 
 .down_svg{
@@ -680,13 +593,4 @@ html {
 .down_svg{
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
-}
-
-.hover\:bg-\[\#181b21\]:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(24 27 33 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-opacity-10:hover{
-  --tw-bg-opacity: 0.1;
 }
